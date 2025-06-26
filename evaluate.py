@@ -8,7 +8,7 @@ from model.model import Autoencoder1D
 from config import CONFIG
 
 def evaluate():
-    test_loader = DataLoader(BearingDataset("data/processed/test.pt"), batch_size=CONFIG["batch_size"], shuffle=False)
+    test_loader = DataLoader(BearingDataset("data/processed/test.pt"), batch_size=1, shuffle=False)
     device = CONFIG["device"]
 
     model = Autoencoder1D().to(device)
