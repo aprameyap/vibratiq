@@ -53,5 +53,4 @@ This project is released under the MIT License.
 ## Acknowledgements
 
 - IMS Bearing Dataset from the NASA Acoustics and Vibration Lab
-- PyTorch for model development
-- Matplotlib for visualization
+
